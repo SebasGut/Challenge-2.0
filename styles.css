@@ -20,10 +20,50 @@ body{
 
 .enciptador{
     width: 60%;
+    background-color: cadetblue;
+    padding-left: 150px;
+    padding-top:40px;
+}
+
+.enciptador textarea{
+    width: 610px;
+    height: 370px;
+    resize: none;
+}
+
+.botonesArea button{
+    width: 200px;
+    height: 60px;
+    color: rgb(255, 255, 255);
+    border-radius: 24px;
+    background:#aaaaaa;
+}
+
+.advertencia{
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .tablon{
     width: 40%;
+    background-color: red;
+}
+
+.tablonArea{
+    text-align: center;
+    background-color:#2a623d;
+    width: 300px;
+    height: 500px;
+    margin: 20px 0 20px 20px;
+    border-radius: 20px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.8);
+}
+
+.tablonArea textarea{
+    margin: 20px auto 0 auto;
+    width: 250px;
+    height: 350px;
+    resize: none;
 }
 
 footer{

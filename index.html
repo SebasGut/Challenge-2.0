@@ -9,27 +9,46 @@
   </head>
 
   <body>
+    <!--Area principal-->
     <main>
+      <!--Logo SG-->
       <img id="logo" src="Recursos/Logo.png" alt="Logo" />
+      <!--Area que encapsula el area del encriptaror-->
       <div class="mediumCont">
+        <!--Encriptador-->
         <div class="enciptador">
+          <!--Input del mensaje a codificar-->
           <textarea
             name="input"
             id="input-mensaje"
             cols="30"
             rows="10"
           ></textarea>
+          <!--Area que encapsula los botones y el aviso-->
           <div class="encriptadorBot">
-            <p class="advertencia">solo letras minusculas</p>
+            <!--Advertencia-->
+            <p class="advertencia">
+              <!--Imagen para la advertencia-->
+              <img
+                src="Recursos/bi_exclamation-circle-fill.png"
+                alt="exclamacion"
+              />
+              Solo letras minusculas
+            </p>
+            <!--Area que encapsula a los botones-->
             <div class="botonesArea">
-              <button>Encriptar</button>
-              <button>Desencriptar</button>
-              <button>Limpiar</button>
+              <!--Botones-->
+              <button class="bEncriptar">Encriptar</button>
+              <button class="bDesencriptar">Desencriptar</button>
+              <button class="bLimpiar">Limpiar</button>
             </div>
           </div>
         </div>
+        <!--Area que encapsula el tablon output-->
         <div class="tablon">
+          <!--Area decorativa del tablon-->
           <div class="tablonArea">
+            <!--Output de la codificacion-->
             <textarea
               name="output"
               id="output-mensaje"
@@ -40,6 +59,7 @@
         </div>
       </div>
     </main>
+    <!--Pie de pagina-->
     <footer>
       <div class="caja-footer"><p>Sebastian Gutiérrez García</p></div>
     </footer>
