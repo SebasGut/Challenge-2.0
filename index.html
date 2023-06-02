@@ -23,6 +23,7 @@
             id="input-mensaje"
             cols="30"
             rows="10"
+            placeholder="escribe tu texto aquí"
           ></textarea>
           <!--Area que encapsula los botones y el aviso-->
           <div class="encriptadorBot">
@@ -48,20 +49,31 @@
         <div class="tablon">
           <!--Area decorativa del tablon-->
           <div class="tablonArea">
+            <!--Se mostrara cuando no haya texto-->
+            <div class="noTexto">
+              <img src="Recursos/data.png" alt="logo de candado" class="logoCandado">
+              <p class="titulo">Todavia no hay mensajes</p>
+              <p class="subtitulo">Cuando escribas algo aparecera en este lugar</p>
+            </div>
+            <!--Se mostrara cuando tenga texto dentro-->
+            <div class="textoIn">
+              <textarea
+                name="output"
+                id="output-mensaje"
+                cols="30"
+                rows="10"
+              ></textarea>
+              <!--Boton para copiar el texto del output-->
+              <button class="botonCopiar">Copiar</button>
+            </div>
             <!--Output de la codificacion-->
-            <textarea
-              name="output"
-              id="output-mensaje"
-              cols="30"
-              rows="10"
-            ></textarea>
           </div>
         </div>
       </div>
     </main>
     <!--Pie de pagina-->
     <footer>
-      <div class="caja-footer"><p>Sebastian Gutiérrez García</p></div>
+      <div class="caja-footer"><p>Encriptador de Sebastian Gutiérrez García</p></div>
     </footer>
   </body>
 </html>

@@ -1,57 +1,75 @@
 body{
-    background-image: url(Recursos/background.jpg);
+    background-image: url(Recursos/—Slidesdocs—green\ cartoon\ environmental\ agency\ simple_8b30991511.jpg);
     background-repeat:no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 
 #logo{
-    width: 100px;
+    width: 150px;
     height: auto;
-    margin: 40px 0 0 40px;
-    background-color: brown;
+    margin: 10px 0 0 40px;
 }
 
 .mediumCont{
-    background-color: blue;
     margin: 30px 0;
     display: flex;
 }
 
 .enciptador{
     width: 60%;
-    background-color: cadetblue;
-    padding-left: 150px;
+    padding-left: 270px;
     padding-top:40px;
 }
 
 .enciptador textarea{
-    width: 610px;
-    height: 370px;
+    width: 74%;
+    height: 70%;
     resize: none;
+    font-size: 35px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #00504f;
 }
 
-.botonesArea button{
-    width: 200px;
-    height: 60px;
-    color: rgb(255, 255, 255);
-    border-radius: 24px;
-    background:#aaaaaa;
+::placeholder{
+    color: #00504f;
 }
 
 .advertencia{
     margin-top: 10px;
+    margin-left: 40px;
     margin-bottom: 20px;
+    color: black; 
+}
+
+.botonesArea button{
+    width: 150px;
+    height: 50px;
+    color: #ff9900;
+    font-weight: bolder;
+    border-radius: 24px;
+    background:#00504f;
+    transition: 500ms;
+}
+
+.botonesArea button:hover{
+    background: #008d28;
+    color: black;
+}
+
+.bDesencriptar,.bLimpiar{
+    margin-left: 30px;
 }
 
 .tablon{
     width: 40%;
-    background-color: red;
 }
 
 .tablonArea{
     text-align: center;
-    background-color:#2a623d;
+    background-color:#00504f;
     width: 300px;
     height: 500px;
     margin: 20px 0 20px 20px;
@@ -59,25 +77,70 @@ body{
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.8);
 }
 
+.logoCandado{
+    width: 60%;
+    margin-top: 80px;
+}
+
+.tablonArea p{
+    color: #ff9900;
+    margin:20px 30px 0 30px
+}
+
+.tablonArea .titulo{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.tablonArea .subtitulo{
+    font-size: 20px;
+}
+
+.textoIn{
+    display: none;
+}
+
+.noTexto{
+    display: block;
+}
+
 .tablonArea textarea{
     margin: 20px auto 0 auto;
     width: 250px;
     height: 350px;
     resize: none;
+    font-size: 25px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #ff9900;
+}
+
+.botonCopiar{
+    margin: 30px auto 0 auto;
+    width: 200px;
+    height: 60px;
+    color: rgb(255, 255, 255);
+    border-radius: 24px;
+    font-weight: bold;
+    background:#ff9900;
+    transition: 500ms;
+}
+
+.botonCopiar:hover{
+    background: #fec60e;
+    color: black;
 }
 
 footer{
     width: 100%;
-    height: 200px;
-    background-color: aqua;
+    height: fit-content;
 }
 
 .caja-footer{
-    color: seagreen;
+    color: #00504f;
     width: fit-content;
     height: fit-content;
-    background-color: beige;
     margin: 0 auto;
-    padding-top: 30px;
     font-size: 30px;
 }
