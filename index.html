@@ -4,6 +4,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
+    <script src="script.js"></script>
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="styles.css" />
   </head>
@@ -39,9 +40,9 @@
             <!--Area que encapsula a los botones-->
             <div class="botonesArea">
               <!--Botones-->
-              <button class="bEncriptar">Encriptar</button>
-              <button class="bDesencriptar">Desencriptar</button>
-              <button class="bLimpiar">Limpiar</button>
+              <button class="bEncriptar" onclick="encriptar()">Encriptar</button>
+              <button class="bDesencriptar" onclick="desencriptar()">Desencriptar</button>
+              <button class="bLimpiar" onclick="limpiar()">Limpiar</button>
             </div>
           </div>
         </div>
@@ -64,7 +65,7 @@
                 rows="10"
               ></textarea>
               <!--Boton para copiar el texto del output-->
-              <button class="botonCopiar">Copiar</button>
+              <button class="botonCopiar" onclick="copiar()">Copiar</button>
             </div>
             <!--Output de la codificacion-->
           </div>
