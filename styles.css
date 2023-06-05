@@ -135,6 +135,7 @@ body{
 footer{
     width: 100%;
     height: fit-content;
+    text-align: center;
 }
 
 .caja-footer{
@@ -143,4 +144,55 @@ footer{
     height: fit-content;
     margin: 0 auto;
     font-size: 30px;
+}
+
+@media screen and (max-width:1200px){
+
+#logo{
+    margin:0;
+}
+
+.enciptador textarea{
+    width: 80%;
+    height: 200px;
+}
+
+.encriptadorBot{
+    text-align: center;
+}
+
+.advertencia{
+    margin: 0;
+}
+
+.botonesArea{
+    text-align: center;
+    align-items: center;
+}
+
+.bEncriptar,.bDesencriptar,.bLimpiar{
+    margin: 10px 0 0 0;
+}
+
+.mediumCont{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.tablonArea,.enciptador{
+    width: 70%;
+    margin: 10px auto;
+    padding: 0;
+}
+
+.tablon{
+    width: 100%;
+}
+
+body{
+    background-image: url(Recursos/movilback.jpg);
+    background-size: cover;
+}
+
 }
